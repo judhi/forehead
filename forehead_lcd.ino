@@ -36,3 +36,4 @@ void loop() {
   lcd.setCursor(0,1);
   lcd.print("Ambient : " + String(ta) + "C");
 }
+
