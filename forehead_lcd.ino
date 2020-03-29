@@ -1,4 +1,4 @@
-// ---------- HotBod (LCD i2c)
+// ---------- Forehead (LCD i2c)
 // ---------- Arduino No Touch Thermometer
 // ---------- Components: Arduino Uno, CJMCU906 (MLX90614), OLED SSD1306, LCD
 // ---------- by Judhi Prasetyo, March 2020 for The Arduino Day
