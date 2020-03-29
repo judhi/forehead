@@ -17,6 +17,8 @@ This project caters for various types of hardware, currently it supports:
   
 ![Image of Forehead Wiring](https://github.com/judhi/forehead/blob/master/img/forehead-wiring.png)
 
+Minimum hardware parts needed are only the Arduino and MLX90614 sensor.
+
 # Preparation
 - On the Arduino IDE, install the library according to the parts you are going to use by doing:
   - Menu -> Sketch -> Include Library -> Manage Libraries and wait for Library Manager dialog.
@@ -25,10 +27,10 @@ This project caters for various types of hardware, currently it supports:
   - Repeat the obve with other libraries
   
 # Running
-- Copy any of the .ino file in this repository and paste it on your Arduino IDE.
-  Available files:
-  - forehead_fusion	Reading MDX90614 + Ultrasonic (Sensor Fusion), output to OLED, LCD, Buzzer	
-  - forehead_lcd	Reading from MLX90614 and output to LCD with i2c	
-  - forehead_oled.ino	Reading from MLX90614 and output to Serial + OLED	
-  - forehead_serial.ino  Reading from MLX90614 and output to Serial port only
+- Copy any of the _.ino_ sketch file in this repository and paste it on your Arduino IDE.
+  Available sketches:
+  - _forehead_fusion.ino_	Reading MDX90614 + Ultrasonic (Sensor Fusion), output to OLED, LCD, Buzzer	
+  - _forehead_lcd.ino_	Reading from MLX90614 and output to LCD with i2c only
+  - _forehead_oled.ino_	Reading from MLX90614 and output to Serial + OLED	only
+  - _forehead_serial.ino_  Reading from MLX90614 and output to Serial port only
 - Compile and upload to Arduino
