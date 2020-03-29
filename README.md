@@ -7,7 +7,7 @@ Unlike the commercial no touch thermometer that requires very close proximity to
 # Hardware
 This project caters for various types of hardware, currently it supports:
 - Arduino Uno/Nano
-- MLX90614
+- MLX90614 Infrared temperature sensor
 - Optional
   - SSD1306 OLED display
   - LCD i2c, two or four lines
