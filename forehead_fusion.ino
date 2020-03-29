@@ -1,4 +1,4 @@
-// ---------- HotBod Fusion (input temp & distance sensors, output to OLED, LCD, Buzzer)
+// ---------- Forehead Fusion (input temp & distance sensors, output to OLED, LCD, Buzzer)
 // ---------- Arduino No Touch Thermometer
 // ---------- Components: Arduino Uno, CJMCU906 (MLX90614), OLED SSD1306, LCD, Ultrasonic
 // ---------- by Judhi Prasetyo, March 2020 for The Arduino Day
