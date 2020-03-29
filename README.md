@@ -1,7 +1,8 @@
 # Forehead
 Forehead is an Arduino No Touch Thermometer with MLX90614 sensor and various output options.
 It was inspired by commercial thermometer used to measure the temperature of shopping mall goers in the time of COVID-19 outbreak.
-Unlike the commercial no touch thermometer that requires very close proximity to the measured object, Forehead's sensor can be placed around 30-40cm away from the person's forehead and still get good reading.
+
+Unlike the commercial no touch thermometer that requires very close proximity to the measured object, Forehead's sensor can be placed further away from the person's forehead and still get good reading. Consistent reading can be met by adding ultrasonic sensor to measure the distance between the sensor and the MLX90614, so far the ideal distance found is between 30 to 40 cm. You may need to calibrate the values according to the parts you are using.
 
 # Hardware
 This project caters for various types of hardware, currently it supports:
@@ -12,6 +13,9 @@ This project caters for various types of hardware, currently it supports:
   - LCD i2c, two or four lines
   - Ultrasonic sensor
   - Passive buzzer or speaker
+  
+  
+![Image of Forehead Wiring](https://github.com/judhi/forehead/blob/master/img/forehead-wiring.png)
 
 # Preparation
 - On the Arduino IDE, install the library according to the parts you are going to use by doing:
