@@ -1,4 +1,4 @@
-// ---------- HotBod (Serial)
+// ---------- Forehead (Serial)
 // ---------- Arduino No Touch Thermometer
 // ---------- Components: Arduino Uno, CJMCU906 (MLX90614) output to serial port
 // ---------- by Judhi Prasetyo, March 2020 for The Arduino Day
